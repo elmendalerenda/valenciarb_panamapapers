@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shower Presentation Engine</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
+	<link rel="stylesheet" href="vendor/jqcloud.min.css">
+	<style>
+	.slide::after {
+		content: unset;
+	}
+	blockquote.one {
+		font-size: 35px;
+		margin-top: 100px;
+	}
+	.slide h2, figcaption, .bold {
+		color: #c00;
+	}
+	.slide ul.columns>li::before {
+		content: unset;
+	}
+	ul.columns li {
+		display: inline;
+		margin-right: 3.2em;
+	}
+	ul.columns {
+		margin-top: 2em;
+	}
+	section#introduction h2 {
+		font-size: 70px;
+	}
+
+	</style>
+</head>
+<body class="shower list">
+	<header class="caption">
+		<h1>Shower Presentation Engine</h1>
+		<p>Yours Truly, Famous Inc.</p>
+	</header>
+	<section class="slide" >
+		<center>
+		<img src="pictures/flywire.jpg" height="150px"><br><br>
+		<img src="pictures/ruby.jpg" height="150px">
+	</center>
+	</section>
+	<section class="slide" >
+		<img class= "cover" src="pictures/vrb.png">
+	</section>
+	<section class="slide" id="introduction">
+		<h2> Miguel Ángel Fernández </h2>
+		<ul class="columns">
+		<li><img src="pictures/flywire.jpg" height="100px"></li>
+		<li><img src="pictures/devscola.png" height="100px"></li>
+		<li><img src="pictures/cueva.jpg" height="100px"></li>
+		</ul>
+		<p>
+			<img src="pictures/tw.jpg" height="50px"></li> @elmendalerenda<br>
+			<img src="pictures/gh.png" height="50px"></li> github.com/elmendalerenda
+		</p>
+	</section>
+	<section class="slide" id="cloud">
+		<div id='keywords'></div>
+
+		<style>
+		   #cloud #keywords { 
+		   	width: 100%;
+		   	height: 350px;
+		   }
+		  </style>
+	</section>
+	<section class="slide">	
+		<figure>
+			<blockquote class="one">
+				<p>Si yo hubiese tenido algo que ver con esa sociedad lo primero que hubiera hecho sería dimitir.</p>
+			</blockquote>
+			<figcaption>José Manuel Soria</figcaption>
+		</figure>		
+	</section>
+	<section class="slide">	
+		<figure>
+			<blockquote class="one">
+				<p>Si yo hubiese tenido algo que ver con <span class="bold"> ese código </span> lo primero que hubiera hecho sería dimitir.</p>
+			</blockquote>
+		</figure>		
+	</section>
+	<section class="slide">	
+		<figure>
+			<blockquote class="one">
+				<p>No me parece que Panamá sea un paraíso fiscal, tiene una cultura tributaria <strong>distinta</strong>.</p>
+			</blockquote>
+			<figcaption>Rafael Catalá, Ministro de Justicia</figcaption>
+		</figure>
+	
+	</section>
+	<section class="slide">
+		<h2 class="shout">Érase una vez...</h2>
+	</section>
+	<section class="slide" id="drawing">
+		<ol>
+			<li><img class= "cover" src="pictures/trans1.svg"></li>
+			<li class="next"><img class= "cover" src="pictures/trans2.svg"></li>
+			<li class="next"><img class= "cover" src="pictures/trans3.svg"></li>
+			<li class="next"><img class= "cover" src="pictures/trans4.svg"></li>
+			<li class="next"><img class= "cover" src="pictures/trans5.svg"></li>
+			<li class="next"><img class= "cover" src="pictures/trans6.svg"></li>
+			<li class="next"><img class= "cover" src="pictures/trans7.svg"></li>
+			<li class="next"><img class= "cover" src="pictures/trans8.svg"></li>
+		</ol>
+
+		<style>
+			#drawing ol>li::before {
+				content: unset;
+			}
+			#drawing .cover {
+				width: 100%
+			}
+		</style>
+
+	</section>
+	<section class="slide" id="nothing">	
+
+		<ol>
+			<li><figure>
+				<blockquote>
+					<p>The best code is no code at all.</p>
+				</blockquote>
+				<figcaption>Coding Horror</figcaption>
+			</figure></li>
+			<li class="next"><figure>
+				<blockquote>
+					<p>Keep It Simple, Stupid.</p>
+				</blockquote>
+			</figure></li>
+			<li class="next"><figure>
+				<blockquote>
+					<p>If it’s not broke, don’t fix it.</p>
+				</blockquote>
+				<figcaption>Michael Feathers</figcaption>
+			</figure></li>
+		</ol>
+			
+		<style>
+			#nothing ol>li::before {
+				content: unset;
+			}
+			#nothing ol>li{
+				text-indent: initial;
+			}
+		</style>
+	</section>
+
+	<section class="slide" id="coupling">
+		<h2 class="shout">Coupling<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cohesion</h2>
+	
+		<style>
+			#coupling .shout {
+				left: -80px;
+			}
+		</style>
+	</section>
+
+	<section class="slide" id="mikado">
+		<h2>The Mikado Method</h2>
+		<ol>
+			<li>Escribir un objetivo.</li>
+			<li class="next">Implementación ingenua.</li>
+			<li class="next">¿Hay errores? Añadirlos al grafo y volver a estado inicial</li>
+			<li class="next">Seleccionar un nodo hoja y repetir el proceso</li>
+		</ol>
+
+		<style>
+			#mikado ol {
+				margin-top: 50px;
+			}
+		</style>
+	</section>
+
+	<section class="slide">
+		<img class="cover" src="pictures/microscope.png"></img>
+	</section>
+
+	<section class="slide" id='summary'>
+		<h2 class="shout">Won't fix<span>+</span><br>Refactor<span>+</span><br>Rewrite</h2>
+	
+	<style>
+			#summary span {
+				font-size: 200px;
+				vertical-align: sub;
+				color: #444;
+				margin-left: 10px;
+
+			}
+		</style>	
+	</section>
+
+		<section class="slide">	
+		<figure>
+			<blockquote class="one">
+				<p>Remember, code is your house, and you have to live in it.</p>
+			</blockquote>
+			<figcaption>Michael Feathers</figcaption>
+		</figure>
+	
+	</section>
+
+	<section class="slide">
+		<h2 class="shout">Gracias</h2>
+	</section>
+
+	<section class="slide">
+		<img class="cover" src="pictures/flywireeng.jpeg"></img>
+	</section>
+	
+	<p class="badge">
+		<a href="https://github.com/shower/shower">Powered by shower</a>
+	</p>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"></div>
+	<script src="shower/shower.min.js"></script>
+	<script src="vendor/jquery-2.2.3.min.js"></script>
+	<script src="vendor/jqcloud.min.js"></script>
+	
+
+	<script>
+	var words = [
+      { text: 'deuda técnica', weight: 7},
+      { text: 'legacy code', weight: 5},
+      { text: 'refactoring', weight: 6},
+      { text: 'testing', weight: 5},
+      { text: 'reescribir', weight: 7},
+      { text: 'valor del sofware', weight: 4},
+      { text: 'continuous delivery', weight: 6},
+	]
+
+	$('#keywords').jQCloud(words, {colors: ['#c00', '#4D4D4D', '#333333']});
+	</script>
+	<!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+	<!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>
