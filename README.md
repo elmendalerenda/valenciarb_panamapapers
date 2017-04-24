@@ -1,7 +1,7 @@
 <img src="pictures/vrb.png" width="500">
 
 Video:
-[![youtube-video](https://img.youtube.com/vi/WP7RgijIUHo/0.jpg)](https://youtu.be/WP7RgijIUHo)
+[![youtube-video](https://img.youtube.com/vi/PNvWKcw4b_M/0.jpg)](https://www.youtube.com/watch?v=PNvWKcw4b_M)
 
 ## Más
 
